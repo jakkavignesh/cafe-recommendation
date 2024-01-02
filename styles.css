@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: black;
+}
+.container {
+    background-color: blueviolet;
+    align-items: center;
+    min-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgb(122, 115, 105);
+    padding-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+select {
+    margin-top: 10px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 3px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 10px 30px black;
+}
+.btn {
+    margin-top: 80px;
+    height: 35px;
+    width: 135px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 10px 30px black;
+}
+.btn:hover {
+    background-color: rgb(68, 22, 109);
+    color: white;
+    font-size: 15px;
+}
+.output table {
+    width: 90vw;
+    text-align: center;
+    /* border: 2px solid black; */
+    /* padding: 20px; */
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 10px 30px black;
+    /* background-color: rgb(84, 26, 138); */
+    /* border-radius: 13px; */
+    padding: 2px;
+}
+.output {
+    display: none;
+}
+td {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+    /* border-radius: 7px; */
+}
+thead {
+    background-color: green;
+    color: black;
+    height: 50px;
+    /* border-radius: 5px; */
+}
+.output-title {
+    text-align: center;
+    padding: 20px;
+}
